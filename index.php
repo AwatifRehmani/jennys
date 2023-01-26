@@ -1,11 +1,4 @@
-<?php
-include('inc/database.inc.php');
-include('inc/utility.php');
 
-	$db = new database();
-
-
-?>
 
 <?php
 include('shared/head.php');
