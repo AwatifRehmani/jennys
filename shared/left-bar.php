@@ -8,28 +8,24 @@
         <ul class="list">
             <li>
                 <div class="user-info">
-                    <a class="image" href="profile.html"><img src="assets/images/profile.jpg" alt="User"></a>
+                    <a class="image" href="profile.html"><img src="assets/images/admin.png" alt="User"></a>
                     <div class="detail">
-                        <h4><?php echo @$_SESSION['fname'];  ?></h4>
-                        <small> <?php
-                        echo "<h6>" .@$_SESSION['email']." </h6> "; 
-                        ?></small>     
-                    
+                        <h4>ADMIN</h4>
+                        <small> SUPER ADMIN</small>     
                     </div>
                 </div>
             </li>
             <li><a href="index.php"><i class="zmdi zmdi-home"></i><span>Home Page</span></a></li>
-            <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-account"></i><span>users</span></a>
+            <li><a class="menu-toggle"><i class="zmdi zmdi-shopping-cart"></i><span>Actions</span></a>
                 <ul class="ml-menu">
-                    <li><a href="create.php">Orders</a></li>
+                    <li><a href="index.php">Orders</a></li>
                    
-                    <li><a href="list.php">products</a></li>  
+                    <li><a href="customers.php">Customers</a></li>  
                     
-                    <li><a href="login.php">users</a></li>                     
+                    <li><a href="products.php">Products</a></li>                     
                 </ul>
             </li>
            
-            <l
         </ul>
     </div>
 </aside>

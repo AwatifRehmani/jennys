@@ -18,7 +18,7 @@
 
 <link rel="stylesheet" href="shared//style2.css">
 
-<link rel="stylesheet" href="shared//style3.css">
+<link rel="stylesheet" href="shared/style3.css">
 
 
 <link rel="stylesheet" href="style.js">
@@ -26,6 +26,12 @@
 <link rel="stylesheet" href="css.scss">
 <link rel="stylesheet" href="./stylebtn.css">
 
+
+<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+<!-- JQuery DataTable Css -->
+<link rel="stylesheet" href="assets/plugins/jquery-datatable/dataTables.bootstrap4.min.css">
+<!-- Custom Css -->
+<link  rel="stylesheet" href="assets/css/style.min.css">
 
 
 
